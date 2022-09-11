@@ -1,22 +1,22 @@
 {
-  "name": "sendmail",
-  "version": "1.0.0",
-  "description": "",
+  "name": "node-image-mailer",
+  "version": "1.0.1",
+  "description": "Send a images from a folder with respect of maximum email size",
   "main": "index.js",
   "scripts": {
     "test": "node index.js"
   },
   "bin": {
-    "im": "index.js",
-    "image-mailer": "index.js"
+    "nim": ".bin/index",
+    "image-mailer": ".bin/index"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "cli-progress": "^3.11.2",
     "commander": "^9.4.0",
     "nodemailer": "^6.7.8",
-    "uuid": "^9.0.0"
+    "uuid": "^9.0.0",
+    "winston": "^3.8.2"
   }
 }
